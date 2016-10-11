@@ -1,1 +1,1 @@
-reporter: "junit" # reporter type (xcode, json, csv, checkstyle, junit)
+reporter: "checkstyle" # reporter type (xcode, json, csv, checkstyle, junit)
