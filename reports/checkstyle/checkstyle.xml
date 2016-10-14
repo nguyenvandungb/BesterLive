@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+	<file name="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLive/AppDelegate.swift">
+		<error line="47" column="0" severity="warning" message="Files should have a single trailing newline."/>
+	</file>
+	<file name="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLive/AppDelegate.swift">
+		<error line="17" column="122" severity="warning" message="Opening braces should be preceded by a single space and on the same line as the declaration."/>
+	</file>
+	<file name="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLive/AppDelegate.swift">
+		<error line="17" column="0" severity="warning" message="Line should be 100 characters or less: currently 123 characters"/>
+	</file>
+	<file name="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLive/AppDelegate.swift">
+		<error line="24" column="0" severity="error" message="Line should be 100 characters or less: currently 281 characters"/>
+	</file>
+	<file name="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLive/AppDelegate.swift">
+		<error line="25" column="0" severity="warning" message="Line should be 100 characters or less: currently 151 characters"/>
+	</file>
+	<file name="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLive/AppDelegate.swift">
+		<error line="29" column="0" severity="error" message="Line should be 100 characters or less: currently 214 characters"/>
+	</file>
+	<file name="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLive/AppDelegate.swift">
+		<error line="30" column="0" severity="warning" message="Line should be 100 characters or less: currently 137 characters"/>
+	</file>
+	<file name="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLive/AppDelegate.swift">
+		<error line="34" column="0" severity="warning" message="Line should be 100 characters or less: currently 153 characters"/>
+	</file>
+	<file name="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLive/AppDelegate.swift">
+		<error line="38" column="0" severity="warning" message="Line should be 100 characters or less: currently 190 characters"/>
+	</file>
+	<file name="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLive/AppDelegate.swift">
+		<error line="42" column="0" severity="warning" message="Line should be 100 characters or less: currently 124 characters"/>
+	</file>
+	<file name="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLive/AppDelegate.swift">
+		<error line="17" column="115" severity="warning" message="Return arrow and return type should be separated by a single space or on a separate line."/>
+	</file>
+	<file name="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLive/ViewController.swift">
+		<error line="25" column="0" severity="warning" message="Files should have a single trailing newline."/>
+	</file>
+	<file name="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLiveTests/BesterLiveTests.swift">
+		<error line="16" column="0" severity="warning" message="Line should be 100 characters or less: currently 109 characters"/>
+	</file>
+	<file name="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLiveTests/BesterLiveTests.swift">
+		<error line="20" column="0" severity="warning" message="Line should be 100 characters or less: currently 111 characters"/>
+	</file>
+	<file name="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLiveTests/BesterLiveTests.swift">
+		<error line="13" column="0" severity="warning" message="Lines should not have trailing whitespace."/>
+	</file>
+	<file name="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLiveTests/BesterLiveTests.swift">
+		<error line="18" column="0" severity="warning" message="Lines should not have trailing whitespace."/>
+	</file>
+	<file name="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLiveTests/BesterLiveTests.swift">
+		<error line="23" column="0" severity="warning" message="Lines should not have trailing whitespace."/>
+	</file>
+	<file name="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLiveTests/BesterLiveTests.swift">
+		<error line="28" column="0" severity="warning" message="Lines should not have trailing whitespace."/>
+	</file>
+	<file name="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLiveTests/BesterLiveTests.swift">
+		<error line="35" column="0" severity="warning" message="Lines should not have trailing whitespace."/>
+	</file>
+</checkstyle>
