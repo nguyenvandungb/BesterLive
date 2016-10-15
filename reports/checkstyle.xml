@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <checkstyle version="4.3">
 	<file name="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLive/AppDelegate.swift">
-        <error line="47" severity="info" message="Checkstyle &quot;comment&quot;." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
+        <error line="47" severity="error" message="Checkstyle &quot;comment&quot;." source="com.puppycrawl.tools.checkstyle.checks.TrailingCommentCheck"/>
 	</file>
 	<file name="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLive/AppDelegate.swift">
 		<error line="17" column="122" severity="warning" message="Opening braces should be preceded by a single space and on the same line as the declaration."/>
