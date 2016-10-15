@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="BesterLive/ViewController.swift"
+  last-modified="1476461719000"
+  file="/Users/dungnv20384/.jenkins/jobs/BesterLive/workspace/BesterLive/ViewController.swift"
+>
+  <violation
+    line="25"
+    source=""
+    severity="Medium"
+    type="checkstyle"
+    message="Files should have a single trailing newline."
+    severity-level="2"
+    popup-message="Files should have a single trailing newline."
+  />
+  <line number='16'>  }</line>
+  <line number='17'></line>
+  <line number='18'>  override func didReceiveMemoryWarning() {</line>
+  <line number='19'>    super.didReceiveMemoryWarning()</line>
+  <line number='20'>    // Dispose of any resources that can be recreated.</line>
+  <line number='21'>  }</line>
+  <line number='22'></line>
+  <line number='23'></line>
+  <line number='24'>}</line>
+  <line number='25'></line>
+  <type type='checkstyle' number='1' suppressed='0'/>
+</file>
