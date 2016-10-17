@@ -13,6 +13,9 @@
 		5D1564231DA4207500F380D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D1564221DA4207500F380D9 /* Assets.xcassets */; };
 		5D1564261DA4207500F380D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1564241DA4207500F380D9 /* LaunchScreen.storyboard */; };
 		5D1564311DA4207500F380D9 /* BesterLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1564301DA4207500F380D9 /* BesterLiveTests.swift */; };
+		5D25C1301DB3B7B500FD44E3 /* aaaaaaaa.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D25C12F1DB3B7B500FD44E3 /* aaaaaaaa.m */; };
+		5DEF6B711DB3CEB30073D17D /* NSManagedObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF6B6B1DB3CEB30073D17D /* NSManagedObject+Extension.m */; };
+		5DEF6B721DB3CEB30073D17D /* NSManagedObjectContext+Extenstion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF6B6D1DB3CEB30073D17D /* NSManagedObjectContext+Extenstion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +25,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5D1564171DA4207500F380D9;
 			remoteInfo = BesterLive;
+		};
+		5DEF6B741DB3CEB30073D17D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DEF6B6E1DB3CEB30073D17D /* DhtCoreData.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5DB6D73F1D58EE1100F23E14;
+			remoteInfo = DhtCoreData;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -36,6 +46,15 @@
 		5D15642C1DA4207500F380D9 /* BesterLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BesterLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D1564301DA4207500F380D9 /* BesterLiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BesterLiveTests.swift; sourceTree = "<group>"; };
 		5D1564321DA4207500F380D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D25C12D1DB3B7B500FD44E3 /* BesterLive-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BesterLive-Bridging-Header.h"; sourceTree = "<group>"; };
+		5D25C12E1DB3B7B500FD44E3 /* aaaaaaaa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aaaaaaaa.h; sourceTree = "<group>"; };
+		5D25C12F1DB3B7B500FD44E3 /* aaaaaaaa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aaaaaaaa.m; sourceTree = "<group>"; };
+		5DEF6B691DB3CEB30073D17D /* DhtCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DhtCoreData.h; sourceTree = "<group>"; };
+		5DEF6B6A1DB3CEB30073D17D /* NSManagedObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+Extension.h"; sourceTree = "<group>"; };
+		5DEF6B6B1DB3CEB30073D17D /* NSManagedObject+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+Extension.m"; sourceTree = "<group>"; };
+		5DEF6B6C1DB3CEB30073D17D /* NSManagedObjectContext+Extenstion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+Extenstion.h"; sourceTree = "<group>"; };
+		5DEF6B6D1DB3CEB30073D17D /* NSManagedObjectContext+Extenstion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+Extenstion.m"; sourceTree = "<group>"; };
+		5DEF6B6E1DB3CEB30073D17D /* DhtCoreData.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = DhtCoreData.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +96,16 @@
 		5D15641A1DA4207500F380D9 /* BesterLive */ = {
 			isa = PBXGroup;
 			children = (
+				5DEF6B671DB3CEB30073D17D /* DhtCoreData */,
 				5D15641B1DA4207500F380D9 /* AppDelegate.swift */,
 				5D15641D1DA4207500F380D9 /* ViewController.swift */,
 				5D15641F1DA4207500F380D9 /* Main.storyboard */,
 				5D1564221DA4207500F380D9 /* Assets.xcassets */,
 				5D1564241DA4207500F380D9 /* LaunchScreen.storyboard */,
 				5D1564271DA4207500F380D9 /* Info.plist */,
+				5D25C12E1DB3B7B500FD44E3 /* aaaaaaaa.h */,
+				5D25C12F1DB3B7B500FD44E3 /* aaaaaaaa.m */,
+				5D25C12D1DB3B7B500FD44E3 /* BesterLive-Bridging-Header.h */,
 			);
 			path = BesterLive;
 			sourceTree = "<group>";
@@ -94,6 +117,35 @@
 				5D1564321DA4207500F380D9 /* Info.plist */,
 			);
 			path = BesterLiveTests;
+			sourceTree = "<group>";
+		};
+		5DEF6B671DB3CEB30073D17D /* DhtCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5DEF6B681DB3CEB30073D17D /* DhtCoreData */,
+				5DEF6B6E1DB3CEB30073D17D /* DhtCoreData.xcodeproj */,
+			);
+			path = DhtCoreData;
+			sourceTree = "<group>";
+		};
+		5DEF6B681DB3CEB30073D17D /* DhtCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5DEF6B691DB3CEB30073D17D /* DhtCoreData.h */,
+				5DEF6B6A1DB3CEB30073D17D /* NSManagedObject+Extension.h */,
+				5DEF6B6B1DB3CEB30073D17D /* NSManagedObject+Extension.m */,
+				5DEF6B6C1DB3CEB30073D17D /* NSManagedObjectContext+Extenstion.h */,
+				5DEF6B6D1DB3CEB30073D17D /* NSManagedObjectContext+Extenstion.m */,
+			);
+			path = DhtCoreData;
+			sourceTree = "<group>";
+		};
+		5DEF6B6F1DB3CEB30073D17D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DEF6B751DB3CEB30073D17D /* libDhtCoreData.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +198,7 @@
 				TargetAttributes = {
 					5D1564171DA4207500F380D9 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					5D15642B1DA4207500F380D9 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -164,6 +217,12 @@
 			mainGroup = 5D15640F1DA4207500F380D9;
 			productRefGroup = 5D1564191DA4207500F380D9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5DEF6B6F1DB3CEB30073D17D /* Products */;
+					ProjectRef = 5DEF6B6E1DB3CEB30073D17D /* DhtCoreData.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5D1564171DA4207500F380D9 /* BesterLive */,
@@ -171,6 +230,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5DEF6B751DB3CEB30073D17D /* libDhtCoreData.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDhtCoreData.a;
+			remoteRef = 5DEF6B741DB3CEB30073D17D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5D1564161DA4207500F380D9 /* Resources */ = {
@@ -197,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D25C1301DB3B7B500FD44E3 /* aaaaaaaa.m in Sources */,
+				5DEF6B721DB3CEB30073D17D /* NSManagedObjectContext+Extenstion.m in Sources */,
 				5D15641E1DA4207500F380D9 /* ViewController.swift in Sources */,
 				5D15641C1DA4207500F380D9 /* AppDelegate.swift in Sources */,
+				5DEF6B711DB3CEB30073D17D /* NSManagedObject+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,10 +399,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BesterLive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Dht.BesterLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BesterLive/BesterLive-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
@@ -339,10 +414,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BesterLive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Dht.BesterLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BesterLive/BesterLive-Bridging-Header.h";
 				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
